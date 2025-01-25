@@ -12,14 +12,11 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        border: Border.all(
-          color: Colors.blueGrey,
-          width: 7,
-        ),
+        border: Border.all(color: Colors.blueGrey, width: 7),
       ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Primeiro Layout',
+        title: 'Calculadora-App',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
